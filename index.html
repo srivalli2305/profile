@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bus ticket reservation</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+    <center>
+        <h1 style="color: red;"><ul>Onliene Ticket Reservation</ul></h1>
+
+        <div class="container">
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="enter first name">
+                <input type="text" placeholder="enter last name"><br><br>
+                
+                <label>Gender</label>
+                <input type="radio" name="gender" value="male" class="form-check-input">Male
+                <input type="radio" name="gender" value="female" class="form-check-input">female
+                <input type="radio" name="gender" value="others" class="form-check-input">Others<br><br>
+            
+                <label>Date Of Birth</label>
+                <input type="date" placeholder="d/m/y"><br><br>
+
+                <label>Email</label>
+                <input type="text" placeholder="enter your email"><br><br>
+
+                <label>Mobile</label>
+                <input type="number" maxlength="10" placeholder="enter mobile your number "><br><br>
+
+                <label>Arrival Date</label>
+                <input type="date" placeholder="d/m/y"><br><br>
+
+                <label>No.Of Persons</label>
+                <input type="number" placeholder="enter no.of persons"><br><br>
+
+                <label>select pickup point</label>
+                <select name="pickup">
+                    <option placeholder="select">select</option>
+                    <option value="Bus stand">Bus stand</option>
+                    <option value="Bus stand">Muncipal office</option>
+                    <option value="Bus stand">Balaji sweet shop</option>
+                    <option value="Bus stand">Near Temple</option>
+                    <option value="Bus stand">Near engineering college</option>
+                    <option value="Bus stand">Auto stand</option>
+                </select><br><br>
+
+                <label>select droping point</label>
+                <select name="Droping point">
+                    <option placeholder="select">select</option>
+                    <option value="Bus stand">Ameerpet</option>
+                    <option value="Bus stand">SR Nagar</option>
+                    <option value="Bus stand">Secundrabad</option>
+                    <option value="Bus stand">LB Nagar</option>
+                    <option value="Bus stand">Yerragadda</option>
+                    <option value="Bus stand">JNTU Engineering college</option>
+                </select><br><br>
+
+                <label>select seat no</label>
+                <select name="seat num">
+                    <option placeholder="select">Select</option>
+                    <option>1 </option>
+                    <option>2 </option>
+                    <option>3 </option>
+                    <option>4 </option>
+                    <option>5 </option>
+                    <option>6 </option>
+                    <option>7 </option>
+                    <option>8 </option>
+                    <option>9 </option>
+                    <option>10 </option>
+                </select><br><br>
+
+                <label>payment</label>
+                <select name="payment type">
+                    <option placeholdetr="select ">select payment type</option>
+                    <option>credit card</option>
+                    <option>debit card</option>
+                    <option>UPI payment</option>
+                    <option>Bank transfer</option>
+                </select><br><br>
+
+                <label>card details</label>
+                <input type="text" placeholder="enter name">
+                <input type="text" placeholder="enter card number">
+                <input type="text" placeholder="enter amount">
+                <input type="text" placeholder="confirm payment amount"><br><br>
+                
+                <label>Terms & Conditions</label>
+                <input type="radio" name="s" class="form-check-input">I agree
+                <input type="radio" name="s" class="form-check-input">disagree<br><br>
+            
+                <button type="submit" value="submit">Confirm Reservation</button>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.container{
+    margin: auto;
+    line-height: 1.5em;
+
+}
+
+body{
+    background-color: aquamarine;
+    color: black;
+    margin: 0;
+    line-height: 1.6em;
+    padding-left: 10%;
+}
+
+label{
+ color: crimson;
+}
+
+
+input{
+    color:black;
+}
+
+button{
+    background-color:rgb(164, 213, 28);
+    color: black;
+    padding: 10px 15px;
+}
+
+button:hover{
+    background-color: red;
+}
